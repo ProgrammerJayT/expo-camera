@@ -4,6 +4,7 @@ import HomeScreen from "../screens/home";
 import QrCodeScreen from "../screens/qr-code";
 import PermitScreen from "../screens/permit";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import LicenseScreen from "../screens/license";
 
 const Stack = createNativeStackNavigator();
 
@@ -14,6 +15,10 @@ const RouteStack = () => {
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Scan QR Code" component={QrCodeScreen} />
         <Stack.Screen name="Scan Permit" component={PermitScreen} />
+        <Stack.Screen
+          name="Scan License"
+          component={LicenseScreen}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
