@@ -6,4 +6,13 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
+
+  buttonsContainer: {
+    flexDirection: "column",
+    justifyContent: "space-between",
+  },
+
+  buttonContainer: {
+    marginVertical: 4,
+  },
 });
