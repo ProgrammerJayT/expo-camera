@@ -4,6 +4,7 @@ export const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: "center",
+    width: "100%",
   },
   message: {
     textAlign: "center",
@@ -11,10 +12,11 @@ export const styles = StyleSheet.create({
   },
   camera: {
     flex: 1,
+    width: "100%",
   },
   buttonContainer: {
     flex: 1,
-    flexDirection: "row",
+    flexDirection: "column",
     backgroundColor: "transparent",
     margin: 64,
   },
